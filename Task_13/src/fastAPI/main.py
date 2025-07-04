@@ -50,7 +50,7 @@ def get_order(order_id: int):
     df = pd.read_sql(query, con=engine)
     if df.empty:
         raise HTTPException(status_code=404, detail="Order not found")
-  .
+  
 
 
 @app.post("/orders")
