@@ -16,7 +16,7 @@ load_to_ssms(fetched_data)
 # load_data_to_dynamoDB('Projects',mongo_data)
  
 # #fetch data from dynamodb
-# fetched_data = fetch_data_from_dynamo('Projects')
+# fetched_data = fetch_data_from_dynamo('Projects') 
  
 # #load dynamodb data to sqlserver
 # load_to_ssms(fetched_data)
